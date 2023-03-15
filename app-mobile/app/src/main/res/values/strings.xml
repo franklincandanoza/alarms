@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Alarms</string>
+    <string name="alarmsButton">Alarmas</string>
+    <string name="acceptButton">Aceptar</string>
+    <string name="ingressButton">Ingresar</string>
+    <string name="recoverButton">Recuperar</string>
+    <string name="recoverPasswordButton"><u>Recuperar contraseña</u></string>
+    <string name="eventsButton">Eventos</string>
+    <string name="typeOfAlarmsButton">Tipo alarmas</string>
+    <string name="createButton">Crear</string>
+    <string name="Alarm1Detail">Nombre: Ejercicio mañana \nHora: 3:30 am\nTipo: Salud</string>
+    <string name="Alarm2Detail">Nombre: Pastillas azúcar \nHora: 2:00 pm\nTipo: Salud</string>
+    <string name="emailField">Correo electrónico:</string>
+    <string name="emailPlaceholder">  Ingrese su email</string>
+    <string name="emailRecoveryPlaceholder">  Ingrese el email a recuperar</string>
+    <string name="passwordField">Contraseña:</string>
+    <string name="passwordPlaceholder">  Ingrese su contraseña</string>
+    <string name="wellcomeField">Bienvenido a alarmas saludables</string>
+    <string name="chooseField">Seleccione alguna opción del menú</string>
+    <string name="successfulRegistrationField">¡Registro realizado correctamente!</string>
+
+
+
+</resources>
