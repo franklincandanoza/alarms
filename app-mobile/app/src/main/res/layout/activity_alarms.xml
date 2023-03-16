@@ -34,11 +34,11 @@
             android:background="@color/cyan_black"
             android:src="@drawable/logout"
             android:clickable="true"
-            app:layout_constraintEnd_toEndOf="@id/button2"
+            app:layout_constraintEnd_toEndOf="@id/buttonCreateAlarm"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/buttonCreateAlarm"
             style="@style/Widget.AppCompat.Button.Small"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -203,7 +203,9 @@
             android:backgroundTint="@color/gray"
             android:text="@string/typeOfAlarmsButton"
             android:textAllCaps="false"
-            android:textColorHighlight="@color/gray" />
+            android:textColorHighlight="@color/gray"
+            android:textSize="14dp"
+            app:iconPadding="0dp" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

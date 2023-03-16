@@ -10,15 +10,13 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         val binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        binding.ingressButton.setOnClickListener {
+        binding.acceptButton.setOnClickListener {
             val intent = Intent(this, WelcomeActivity::class.java)
             startActivity(intent)
-            true
-        };
+        }
         binding.recoveryButton.setOnClickListener{
             val intent = Intent(this, RecoverPasswordActivity::class.java)
             startActivity(intent)
-            true
         }
 
 

@@ -17,5 +17,31 @@ class AlarmsActivity : AppCompatActivity() {
             val intent = Intent(this, AlarmsActivity::class.java)
             startActivity(intent)
         }
+        binding.buttonCreateAlarm.setOnClickListener {
+            val intent = Intent(this, CreateAlarmActivity::class.java)
+            startActivity(intent)
+        }
+        binding.textView.setOnClickListener{
+            val intent = Intent(this, EditAlarmActivity::class.java)
+            startActivity(intent)
+        }
+        binding.textView1.setOnClickListener{
+            val intent = Intent(this, EditAlarmActivity::class.java)
+            startActivity(intent)
+        }
+        binding.logoutButton.setOnClickListener{
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+        }
+        binding.imageButton.setOnClickListener{
+            val intent = Intent(this, ConfirmDeleteAlarmActivity::class.java)
+            startActivity(intent)
+        }
+        binding.imageButton1.setOnClickListener{
+            val intent = Intent(this, ConfirmDeleteAlarmActivity::class.java)
+            startActivity(intent)
+        }
+
+
     }
 }

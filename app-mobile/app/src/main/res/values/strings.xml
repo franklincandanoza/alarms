@@ -2,11 +2,12 @@
     <string name="app_name">Alarms</string>
     <string name="alarmsButton">Alarmas</string>
     <string name="acceptButton">Aceptar</string>
+    <string name="cancelButton">Cancel</string>
     <string name="ingressButton">Ingresar</string>
     <string name="recoverButton">Recuperar</string>
     <string name="recoverPasswordButton"><u>Recuperar contraseña</u></string>
     <string name="eventsButton">Eventos</string>
-    <string name="typeOfAlarmsButton">Tipo alarmas</string>
+    <string name="typeOfAlarmsButton">Tipos</string>
     <string name="createButton">Crear</string>
     <string name="Alarm1Detail">Nombre: Ejercicio mañana \nHora: 3:30 am\nTipo: Salud</string>
     <string name="Alarm2Detail">Nombre: Pastillas azúcar \nHora: 2:00 pm\nTipo: Salud</string>
@@ -18,7 +19,67 @@
     <string name="wellcomeField">Bienvenido a alarmas saludables</string>
     <string name="chooseField">Seleccione alguna opción del menú</string>
     <string name="successfulRegistrationField">¡Registro realizado correctamente!</string>
+    <string name="hoursTextEdit">10</string>
+    <string name="minutesTextEdit">30</string>
+
+    <string name="nameField">Nombre:</string>
+    <string name="typeField">Tipo:</string>
+    <string name="eventField">Evento:</string>
+    <string name="soundField">Sonido:</string>
+    <string name="retoField">Reto:</string>
+    <string name="repeatField">Repetir:</string>
+
+    <string name="namePlaceholder">Ingrese un nombre para la alarma</string>
+    <string name="choicePlaceholder">Selecciona:</string>
+
+    <string name="alarm1Text">Alarma 1</string>
+
+    <string name="deleteConfirmMessage">¿Desea eliminar la alarma "Ejercicio mañanas"?</string>
+    <string name="alarmSuccessfulCreationMessage">¡Alarma creada correctamente! Su alarma sonara en 2 horas</string>
+    <string name="alarmSuccessfulUpdateMessage">¡Alarma actualizada correctamente!</string>
+    <string name="alarmSuccessfulEmailRecoveryMessage">¡Se ha enviado un email al correo proporcionado para recuperar su contraseña!</string>
+    <string name="alarmConfirmDeleteMessage">¿Desea eliminar la alarma \"Ejercicio mañanas\"?</string>
+    <string name="alarmSuccessfulDeleteMessage">¡Su alarma fue eliminada correctamente!</string>
 
 
 
+    <string-array name="array_type">
+        <item>Seleccione..</item>
+        <item>Salud</item>
+        <item>Despertador</item>
+    </string-array>
+    <string-array name="array_event">
+        <item>Seleccione..</item>
+        <item>Encender TV</item>
+        <item>Llamar</item>
+    </string-array>
+
+    <string-array name="array_sound">
+        <item>Seleccione..</item>
+        <item>Sound 1</item>
+        <item>Sound 2</item>
+    </string-array>
+    <string-array name="array_reto">
+        <item>Seleccione..</item>
+        <item>Matemático</item>
+        <item>Ejercicios</item>
+    </string-array>
+
+    <string-array name="array_type_selected">
+        <item>Salud</item>
+        <item>Despertador</item>
+    </string-array>
+    <string-array name="array_event_selected">
+        <item>Encender TV</item>
+        <item>Llamar</item>
+    </string-array>
+
+    <string-array name="array_sound_selected">
+        <item>Sound 1</item>
+        <item>Sound 2</item>
+    </string-array>
+    <string-array name="array_reto_selected">
+        <item>Matemático</item>
+        <item>Ejercicios</item>
+    </string-array>
 </resources>

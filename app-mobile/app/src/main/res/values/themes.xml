@@ -29,4 +29,8 @@
     <style name="Theme.Vinylos.NoActionBar.AppBarOverlay"
         parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
     <style name="Theme.Vinylos.NoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="SwitchTheme" parent="Theme.AppCompat.Light">
+        <item name="android:colorControlActivated">@color/black_low</item>
+    </style>
 </resources>

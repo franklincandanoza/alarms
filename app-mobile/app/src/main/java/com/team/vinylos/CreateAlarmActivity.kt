@@ -3,15 +3,19 @@ package com.team.vinylos
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.team.vinylos.databinding.ActivityWelcomeBinding
+import com.team.vinylos.databinding.ActivityAlarmsBinding
+import com.team.vinylos.databinding.ActivityCreateAlarmBinding
 
-class WelcomeActivity : AppCompatActivity() {
+class CreateAlarmActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val binding = ActivityWelcomeBinding.inflate(layoutInflater)
+
+        val binding = ActivityCreateAlarmBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        binding.logoutButton.setOnClickListener {
-            val intent = Intent(this, LoginActivity::class.java)
+
+        binding.acceptButton.setOnClickListener{
+            val intent = Intent(this, SuccessfulMessageActivity::class.java)
+            intent.putExtra("message", getString(R.string.alarmSuccessfulCreationMessage))
             startActivity(intent)
         }
         binding.buttonAlarms.setOnClickListener{
@@ -19,6 +23,7 @@ class WelcomeActivity : AppCompatActivity() {
             startActivity(intent)
 
         }
+
 
     }
 }

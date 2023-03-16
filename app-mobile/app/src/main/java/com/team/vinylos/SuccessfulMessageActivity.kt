@@ -1,15 +1,16 @@
 package com.team.vinylos
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import com.team.vinylos.databinding.ActivityLoginBinding
 import com.team.vinylos.databinding.ActivitySuccessfulMessageBinding
-import com.team.vinylos.databinding.ActivitySuccessfulRegistrationBinding
 
-class SuccessfulRegistrationActivity : AppCompatActivity() {
+
+class SuccessfulMessageActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val binding = ActivitySuccessfulRegistrationBinding.inflate(layoutInflater)
+        val binding = ActivitySuccessfulMessageBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
 
@@ -19,7 +20,7 @@ class SuccessfulRegistrationActivity : AppCompatActivity() {
 
 
         binding.acceptButton.setOnClickListener{
-            val intent = Intent(this, LoginActivity::class.java)
+            val intent = Intent(this, AlarmsActivity::class.java)
             startActivity(intent)
         }
     }
