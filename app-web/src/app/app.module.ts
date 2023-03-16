@@ -28,6 +28,7 @@ import { MenuPrincipalComponent } from './menu-principal/menu-principal.componen
 import { RecoveryMessageComponent } from './recovery-message/recovery-message.component';
 import { HeaderLoginComponent } from './components/header-login/header-login.component';
 import { HomeComponent } from './home/home.component';
+import { CreatedAccountComponent } from './created-account/created-account.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -46,7 +47,8 @@ import { HomeComponent } from './home/home.component';
     MenuPrincipalComponent,
     RecoveryMessageComponent,
     HeaderLoginComponent,
-    HomeComponent
+    HomeComponent,
+    CreatedAccountComponent
   ],
   imports: [
     BrowserModule,
