@@ -23,26 +23,26 @@
         android:id="@+id/alarm_item3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="60dp"
+        android:layout_margin="50dp"
         android:layout_marginTop="50dp"
         android:backgroundTint="@color/gray"
+        android:gravity="center"
         android:orientation="horizontal"
         android:paddingLeft="0dp"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="60dp">
+        app:layout_constraintTop_toTopOf="parent" >
 
         <EditText
             android:id="@+id/editTextHour"
             android:layout_width="wrap_content"
             android:layout_height="45dp"
-            android:layout_marginLeft="5dp"
+            android:layout_marginLeft="0dp"
             android:layout_marginRight="6dp"
-            android:maxLength="2"
-            android:layout_weight="1"
+            android:layout_weight="5"
             android:background="@drawable/login_form_ground"
             android:ems="10"
-            android:text="@string/hoursTextEdit"
+            android:hint="@string/hoursTextEdit"
             android:inputType="number"
+            android:maxLength="2"
             android:textAlignment="center"
             android:textColor="@android:color/darker_gray"
             android:textSize="18dp" />
@@ -62,13 +62,13 @@
             android:layout_width="wrap_content"
             android:layout_height="45dp"
             android:layout_marginLeft="6dp"
-            android:layout_marginRight="6dp"
-            android:maxLength="2"
-            android:layout_weight="1"
+            android:layout_marginRight="0dp"
+            android:layout_weight="5"
             android:background="@drawable/login_form_ground"
             android:ems="10"
-            android:text="@string/hoursTextEdit"
+            android:hint="@string/hoursTextEdit"
             android:inputType="number"
+            android:maxLength="2"
             android:textAlignment="center"
             android:textColor="@android:color/darker_gray"
             android:textSize="18dp" />
@@ -76,28 +76,29 @@
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:layout_weight="1">
-
+            android:layout_weight="5"
+            android:orientation="horizontal">
 
 
             <RadioButton
                 android:id="@+id/radioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:buttonTint="@color/black_low"
                 android:checked="true"
+                android:gravity="center"
                 android:saveEnabled="true"
                 android:selectAllOnFocus="false"
                 android:text="AM"
-                android:buttonTint="@color/black_low"
                 android:textColor="@color/white" />
 
             <RadioButton
                 android:id="@+id/radioButton2"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="PM"
                 android:buttonTint="@color/black_low"
+                android:gravity="center"
+                android:text="PM"
                 android:textColor="@color/white" />
 
         </RadioGroup>
@@ -134,7 +135,7 @@
             android:id="@+id/editTextTextPersonName"
             android:layout_width="250dp"
             android:layout_height="45dp"
-            android:layout_marginRight="40dp"
+            android:layout_marginRight="20dp"
             android:background="@drawable/login_form_ground"
             android:text="@string/alarm1Text"
             android:inputType="text"
@@ -171,7 +172,7 @@
             android:id="@+id/planets_spinner"
             android:layout_width="250dp"
             android:layout_height="45dp"
-            android:layout_marginRight="40dp"
+            android:layout_marginRight="20dp"
             android:background="@drawable/login_form_ground"
             android:drawSelectorOnTop="true"
             android:entries="@array/array_type_selected"
@@ -211,7 +212,7 @@
             android:id="@+id/events_spinner"
             android:layout_width="250dp"
             android:layout_height="45dp"
-            android:layout_marginRight="40dp"
+            android:layout_marginRight="20dp"
             android:background="@drawable/login_form_ground"
             android:drawSelectorOnTop="true"
             android:entries="@array/array_event_selected"
@@ -251,7 +252,7 @@
             android:id="@+id/sounds_spinner"
             android:layout_width="250dp"
             android:layout_height="45dp"
-            android:layout_marginRight="40dp"
+            android:layout_marginRight="20dp"
             android:background="@drawable/login_form_ground"
             android:drawSelectorOnTop="true"
             android:entries="@array/array_sound_selected"
@@ -290,7 +291,7 @@
             android:id="@+id/reto_spinner"
             android:layout_width="250dp"
             android:layout_height="45dp"
-            android:layout_marginRight="40dp"
+            android:layout_marginRight="20dp"
             android:background="@drawable/login_form_ground"
             android:drawSelectorOnTop="true"
             android:entries="@array/array_reto_selected"

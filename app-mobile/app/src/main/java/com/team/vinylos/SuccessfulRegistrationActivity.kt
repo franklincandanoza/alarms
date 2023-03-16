@@ -19,8 +19,7 @@ class SuccessfulRegistrationActivity : AppCompatActivity() {
 
 
         binding.acceptButton.setOnClickListener{
-            val intent = Intent(this, LoginActivity::class.java)
-            startActivity(intent)
+            startActivity(Intent(this, LoginActivity::class.java))
         }
     }
 }

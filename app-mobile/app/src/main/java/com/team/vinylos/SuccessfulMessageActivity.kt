@@ -20,8 +20,7 @@ class SuccessfulMessageActivity : AppCompatActivity() {
 
 
         binding.acceptButton.setOnClickListener{
-            val intent = Intent(this, AlarmsActivity::class.java)
-            startActivity(intent)
+            startActivity(Intent(this, AlarmsActivity::class.java))
         }
     }
 }

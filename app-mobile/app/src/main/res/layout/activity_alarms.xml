@@ -63,7 +63,7 @@
             android:id="@+id/alarm_item1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
+            android:layout_margin="15dp"
             android:background="@drawable/login_form_back_ground"
             android:backgroundTint="@color/gray"
             android:orientation="horizontal"
@@ -72,13 +72,13 @@
 
             <TextView
                 android:id="@+id/textView"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_margin="5dp"
-                android:layout_marginRight="60dp"
+                android:layout_marginRight="40dp"
                 android:layout_marginBottom="80dp"
-                android:layout_weight="1"
+                android:layout_weight="3"
                 android:fontFamily="sans-serif"
                 android:text="@string/Alarm1Detail"
                 android:textColor="@color/white"
@@ -87,7 +87,7 @@
 
             <Switch
                 android:id="@+id/switch2"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1" />
@@ -111,8 +111,8 @@
             android:id="@+id/alarm_item2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
             android:background="@drawable/login_form_back_ground"
             android:backgroundTint="@color/gray"
             android:orientation="horizontal"
@@ -121,13 +121,13 @@
 
             <TextView
                 android:id="@+id/textView1"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_margin="5dp"
-                android:layout_marginRight="60dp"
+                android:layout_marginRight="40dp"
                 android:layout_marginBottom="80dp"
-                android:layout_weight="1"
+                android:layout_weight="3"
                 android:fontFamily="sans-serif"
                 android:text="@string/Alarm2Detail"
                 android:textColor="@color/white"
@@ -136,7 +136,7 @@
 
             <Switch
                 android:id="@+id/switch22"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1"
